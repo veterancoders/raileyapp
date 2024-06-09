@@ -40,5 +40,5 @@ MAIL_FROM_NAME="${APP_NAME}"
 </code></pre><br> You can make use of mail servers such as <a hred="https://mailchimp.com/">Mailchimp</a> or <a hred="https://mailtrap.io/">Mailtrap</a></li>
 <li> Generate the application key, which is used for encryption: <br><br> <pre><code>php artisan key:generate</code></pre></li>
 <li> If you originally set your database settings, migrate your database to set up the necessary tables:<br><br> <pre><code>php artisan migrate</code></pre></li>
-<li> Start the Laravel development server: <br><br> <pre><code>php artisan serve</code></pre><br><br>Your application should now be running at http://localhost:8000.</li>
+<li> Start the Laravel development server: <br><br> <pre><code>php artisan serve</code></pre>Your application should now be running at http://localhost:8000.</li>
 </ol>
