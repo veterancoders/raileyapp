@@ -3,9 +3,9 @@
 <h2>How to set up and run the project locally</h2>
 
 <h4>Prerequisites</h4>
-<p><strong><Composer</strong> installed</p>
-    <p><strong><PHP</strong> installed</p>
-    <p><strong><XAMPP</strong> installed</p>
+<p><strong>Composer</strong> installed</p>
+    <p><strong>PHP</strong> installed</p>
+    <p><strong>XAMPP</strong> installed</p>
 
 
 <ol>
