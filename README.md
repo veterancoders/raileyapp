@@ -42,3 +42,16 @@ MAIL_FROM_NAME="${APP_NAME}"
 <li> If you originally set your database settings, migrate your database to set up the necessary tables:<br><br> <pre><code>php artisan migrate</code></pre></li>
 <li> Start the Laravel development server: <br><br> <pre><code>php artisan serve</code></pre>Your application should now be running at http://localhost:8000.</li>
 </ol>
+
+<h2>Assumptions or decisions made during the development</h2>
+<h5>Assumptions</h5>
+<p> During the development, i assumed that the user require both web and mobile responsiveness with well placed animations</p>
+<p> I assumed that HTTPS would be used in production to secure data transmission since there is a mailing feature.</p>
+<h5>Decisions</h5>
+<p> I decided to use a css animation plugin to ensure smooth animation on the front end</p>
+<p> I decided to use Laravel framework due to its robust features, security ensuring secured HTTPS connection and easy integration of the mail.</p>
+
+<h2>Challanges faced and how they were overcome</h2>
+
+<p>Well one challange i can say i faced was during deployment on my digital ocean account. It turns out i cannot access the free feature to access the cloud storage. </p>
+<p>I overcame this minor challange by hosting instead on a subdomain of my personal server.</p>
