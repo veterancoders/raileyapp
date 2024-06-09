@@ -1,0 +1,84 @@
+/* MOBILE NAV */
+.mobile-nav {
+    background-color: rgb(19, 18, 18);
+    /* Darker background */
+    width: 100%;
+    position: fixed;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    overflow-y: hidden;
+    transition: bottom 5s ease-out;
+    padding: 20px;
+    /* Added padding */
+    font-size: 1.2em;
+    /* Increased font size */
+  }
+
+  .mobile-nav.open {
+    top: 50px;
+  }
+
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-list li {
+    padding: 10px 0;
+  }
+
+  .nav-list li:last-child {
+    border-bottom: none;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+  }
+
+  .dark-background {
+    background-color: black;
+  }
+
+  @media screen and (min-width:991px) {
+    .mobile-nav {
+      display: none;
+    }
+  }
+
+  /* REVIEW IMAGES */
+  .image-container {
+    display: flex;
+    overflow-x: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .userimg{
+    width: 55px;
+    background: #ffffffbf;
+    height: 55px;
+    align-content: center;
+    border-radius: 50%;
+    margin-right: -6px;
+    padding-left: 8px;
+    transition: transform 0.3s;
+    position: relative;
+  }
+  .image-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: -6px;
+    transition: transform 0.3s;
+    position: relative;
+  }
+
+  .image-container img, .userimg:hover {
+    transform: scale(1.1);
+  }
