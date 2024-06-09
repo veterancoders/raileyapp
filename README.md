@@ -53,5 +53,5 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 <h2>Challanges faced and how they were overcome</h2>
 
-<p>Well one challange i can say i faced was during deployment on my digital ocean account. It turns out i cannot access the free feature to access the cloud storage. </p>
-<p>I overcame this minor challange by hosting instead on a subdomain of my personal server.</p>
+<p>Well one challange i can say i faced was during deployment on my digital ocean account. It turns out i cannot access the free feature to access the cloud storage. Also, i wont be able to get mailer details from there except i use a third party mailer. </p>
+<p>I overcame this minor challange by hosting instead on a subdomain of my personal server.I also seamelessly configured my mailer settings to that of my host.</p>
