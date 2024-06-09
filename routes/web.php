@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,12 @@ use Illuminate\Support\Facades\Route;
 /* RETURN HOME */
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
+
+/* EMAIL SUCCESS PAGE */
+Route::get('/successful', function () {
+    return view('success');
+})->name('success');
+
+/* CONTACT CONTROLLER */
+Route::post('/contact', [ContactController::class, 'submit'])->name('formsubmit');

@@ -62,13 +62,13 @@
         <div class="wrapper-form-hiro">
           <div class="box-h-form">
             <div class="form-block-3 w-form">
-              <form id="email-form" name="email-form" method="post" class="form-3">
-                <input class="text-field-3 w-input" maxlength="256" name="email" data-name="email"
-                  placeholder="Enter your email" type="email" id="email-16" required="" /><input type="submit"
-                  data-wait="Please wait..." class="form-button-3 w-button" value="Ask for Early Access" />
-              </form>
-              
-            
+             {{-- Contact Form --}}
+             <form action="{{ route('formsubmit') }}" method="POST" class="form-3">
+              @csrf
+              <input class="text-field-3 w-input" maxlength="256" name="email"
+                placeholder="Enter your email" type="email" id="email-14" required="" /><input type="submit"
+                class="form-button-3 w-button" value="Ask for Early Access" />
+            </form>
             </div>
           </div>
         </div>
@@ -258,13 +258,13 @@
         <div class="box-embet-meet">
           <div class="box-h-form">
             <div class="form-block-3 w-form">
-              <form id="email-form" name="email-form" method="post" class="form-3">
-                <input class="text-field-3 w-input" maxlength="256" name="email" data-name="email"
-                  placeholder="Enter your email" type="email" id="email-11" required="" /><input type="submit"
-                  data-wait="Please wait..." class="form-button-3 w-button" value="Ask for Early Access" />
+              {{-- Contact Form --}}
+              <form action="{{ route('formsubmit') }}" method="POST" class="form-3">
+                @csrf
+                <input class="text-field-3 w-input" maxlength="256" name="email"
+                  placeholder="Enter your email" type="email" id="email-14" required="" /><input type="submit"
+                  class="form-button-3 w-button" value="Ask for Early Access" />
               </form>
-              
-            
             </div>
           </div>
         </div>
@@ -489,13 +489,14 @@
         <div class="wrapper-form-smart">
           <div class="box-h-form">
             <div class="form-block-3 w-form">
-              <form id="wf-form-Email-Form-2" name="wf-form-Email-Form-2" action="" method="post" class="form-3">
-                <input class="text-field-3 w-input" maxlength="256" name="email" data-name="email"
+              {{-- Contact Form --}}
+              <form action="{{ route('formsubmit') }}" method="POST" class="form-3">
+                @csrf
+                <input class="text-field-3 w-input" maxlength="256" name="email"
                   placeholder="Enter your email" type="email" id="email-14" required="" /><input type="submit"
-                  data-wait="Please wait..." class="form-button-3 w-button" value="Ask for Early Access" />
+                  class="form-button-3 w-button" value="Ask for Early Access" />
               </form>
               
-      
             </div>
           </div>
         </div>
